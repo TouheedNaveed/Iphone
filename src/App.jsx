@@ -9,7 +9,7 @@ const App = () => {
   // return <button onClick={() => methodDoesNotExist()} style={{color:'white'}}>Break the world</button>;
   return (
     <>
-      <main className="bg-black">
+      <main className="bg-black overflow-clip">
         <Navbar/>
         <Hero/>
         <Highlights/>
